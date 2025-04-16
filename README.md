@@ -1,6 +1,4 @@
-# Hybrid job recommendation system
-
-
+# Hybrid job recommendation 
 
 A personalized AI-powered job recommendation system using NLP, deep learning, and retrieval-based techniques. This project combines traditional and modern search techniques with large language models to suggest the most relevant job listings to users.
 
@@ -16,7 +14,7 @@ A personalized AI-powered job recommendation system using NLP, deep learning, an
 
 ## Tech Stack
 
-- *Python, **PyTorch, **HuggingFace Transformers*
+- *Python, **PyTorch, **Transformers*
 - *FAISS, **Scikit-learn, **LangChain, **OpenAI API*
 - *MongoDB, **Pandas, **NumPy*
 - *Streamlit* or *Gradio* (for chatbot interface)
@@ -33,40 +31,34 @@ src/ ├── data/                  # User-job interaction generator ├──
 3. *Rank* jobs with hybrid scoring strategy
 4. *Recommend* top jobs or use LLM to explain results
 
-## Setup Instructions
 
-```bash
-git clone https://github.com/your-username/job-recommendation-system.git
-cd job-recommendation-system
-pip install -r requirements.txt
-
-Ensure you set up:
+# Ensure you set up:
 
 .env with your OpenAI API key
 
 MongoDB running with jobportal.jobdetails collection
 
 
-Run Pipelines
+# Run Pipelines
 
-Train Model:
+1.Train Model:
 
 python src/pipelines/training_pipeline.py
 
-Test Vectorization & Retrieval:
+2.Test Vectorization & Retrieval:
 
 python src/pipelines/test_vectorization.py
 
-Deep Inference:
+3.Deep Inference:
 
 python src/models/deep_inference.py
 
-LangChain RAG:
+4.LangChain RAG:
 
 python src/models/rag_chain.py
 
 
-Future Plans
+# Future Plans
 
 Web UI with React.js
 
