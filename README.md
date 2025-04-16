@@ -22,7 +22,17 @@ A personalized AI-powered job recommendation system using NLP, deep learning, an
 
 ## Project Structure
 
-src/ ├── data/                  # User-job interaction generator ├── models/                # Deep model, RAG, inference ├── pipelines/             # Retrieval and vectorization logic ├── utils.py               # Utility functions ├── database.py            # MongoDB connection artifacts/                 # Saved vectorizers, FAISS index, models notebook/                  # Exploratory data analysis, simulations
+ artifacts/                 # Saved vectorizers, 
+ notebook/                  # Exploratory data analysis, simulations
+
+ src/├── data/                  # User-job interaction
+     ├── LLM/                   # Generator
+     ├── models/                # Deep model, RAG, 
+     ├── pipelines/             # Retrieval 
+
+ vectorization logic ├──utils.py      # Utility
+ functions ├── database.py            # MongoDB 
+
 
 ## How it Works
 
