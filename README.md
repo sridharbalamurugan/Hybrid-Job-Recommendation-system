@@ -75,3 +75,7 @@ Web UI with React.js
 Deployment on AWS/GCP
 
 API-based monetization model
+
+AUTO JOBFILL and JOBAPPLY chatbot
+
+
