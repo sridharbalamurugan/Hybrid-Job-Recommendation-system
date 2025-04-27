@@ -42,7 +42,7 @@ A personalized AI-powered job recommendation system using NLP, deep learning, an
 4. *Recommend* top jobs or use LLM to explain results
 
 
-# Ensure you set up:
+# My set up:
 
 .env with your OpenAI API key
 
